@@ -369,6 +369,7 @@ var routingControl = L.Routing.control({
         }
     }),
     formatter: new L.Routing.Formatter({
+        units: 'imperial', 
         roundingSensitivity: 1000
     }),
     routeWhileDragging: false,
